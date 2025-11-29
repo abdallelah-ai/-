@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>طمني AI المتكامل</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>طمني AI</h1>
+
+  <div class="input-section">
+    <input type="text" id="symptoms" placeholder="اكتب أو اختر الأعراض هنا...">
+    <button onclick="addSymptom()">إضافة عرض</button>
+  </div>
+
+  <div id="chat" class="chat-box"></div>
+
+  <div class="input-section">
+    <input type="text" id="userInput" placeholder="اكتب سؤالك هنا...">
+    <button onclick="sendQuestion()">إرسال</button>
+    <button onclick="aiResponse()">استشارة فورية AI</button>
+  </div>
+</div>
+
+<script src="chat.js"></script>
+</body>
+</html>
